@@ -1,4 +1,4 @@
-const clientId = 'fc8a3006cf2646a587c48fad4074acb0';
+const clientId = 'a36f958e9ee24ff2b6dd3d826ed156d5';
 //const redirect_uri = 'http://localhost:3000/';
 const redirect_uri = 'http://jamming-olgatheterrible.surge.sh';
 let accessToken;
