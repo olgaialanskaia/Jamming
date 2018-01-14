@@ -2,7 +2,7 @@
   "name": "jamming",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://olgaialanskaia.github.io/jammming",
+  "homepage": "https://olgaialanskaia.github.io/Jammming",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^16.2.0",
