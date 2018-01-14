@@ -1,6 +1,6 @@
 const clientId = 'fc8a3006cf2646a587c48fad4074acb0';
 //const redirect_uri = 'http://localhost:3000/';
-const redirect_uri = 'https://olgaialanskaia.github.io/jammming';
+const redirect_uri = 'http://jamming-olgatheterrible.surge.sh';
 let accessToken;
 
 const Spotify = {
@@ -15,8 +15,7 @@ const Spotify = {
       accessToken = newAccessToken[1];
       const expiresIn = Number(newExpiresIn[1]);
       window.setTimeout(() => accessToken = '', expiresIn * 1000);
-      //window.history.pushState('Access Token', null, '/');
-      window.history.pushState('Access Token', null, '/jamming/');
+      window.history.pushState('Access Token', null, '/');
       return accessToken;
     } else {
       const accessUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&show_dialog=true&redirect_uri=${redirect_uri}`;
