@@ -40,11 +40,6 @@ class App extends Component {
     this.setState({playlistName: name});
   }
 
-  disconnect() {
-    Spotify.disconnect();
-    window.location.reload();
-  }
-
   savePlaylist() {
     let tracks = this.state.playlistTracks;
     if(tracks.length && this.state.playlistName) {
